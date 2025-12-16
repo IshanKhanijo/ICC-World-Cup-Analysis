@@ -3,7 +3,7 @@
 This repository contains a **Jupyter Notebook** that explores ODI cricket performance through **player, team, venue, and toss-based** lenses.  
 It’s designed like a mini-analytics report: **each chart is paired with interpretation** so readers understand *what matters* and *why*—not just what the plot shows.
 
-> **Images live in the `image/` folder** and are embedded below using the same filenames.
+> **imagess live in the `images/` folder** and are embedded below using the same filenames.
 
 ---
 
@@ -20,7 +20,7 @@ It’s designed like a mini-analytics report: **each chart is paired with interp
 ## Visual Insights (Charts + Interpretation)
 
 ### 1) Top 10 Bowlers by Bowling Average (Lower is better)
-![Top 10 Bowlers by Bowling Average](image/bowlingavg.png)
+![Top 10 Bowlers by Bowling Average](images/bowlingavg.png)
 
 **What it really means (beyond “lower is better”):**
 - Bowling average tells you **how expensive a wicket is**. A great strike bowler can still look average if they concede heavily; a controlling bowler can look great even without huge wicket volume.
@@ -36,7 +36,7 @@ It’s designed like a mini-analytics report: **each chart is paired with interp
 ---
 
 ### 2) Top 10 Batsmen by Batting Average (Higher is better)
-![Top 10 Batsmen by Batting Average](image/battingavg.png)
+![Top 10 Batsmen by Batting Average](images/battingavg.png)
 
 **What this reveals:**
 - Batting average is primarily a measure of **consistency** and “how often a batter converts innings into meaningful runs.”
@@ -49,7 +49,7 @@ It’s designed like a mini-analytics report: **each chart is paired with interp
 ---
 
 ### 3) Top 10 Bowlers by Extras (Wides + No-balls)
-![Top 10 Bowlers by Extras](image/bowlersextra.png)
+![Top 10 Bowlers by Extras](images/bowlersextra.png)
 
 **Why this chart matters:**
 - Extras are “free runs”—they increase totals without requiring skill from the batter.
@@ -65,7 +65,7 @@ It’s designed like a mini-analytics report: **each chart is paired with interp
 ---
 
 ### 4) Top 10 Bowlers by Total Wickets
-![Top 10 Bowlers by Wickets](image/bowlerswick.png)
+![Top 10 Bowlers by Wickets](images/bowlerswick.png)
 
 **What’s actually being captured:**
 - This is a **longevity + impact** metric. Bowlers rise here by staying fit, playing lots of ODI cricket, and maintaining wicket-taking ability across eras/conditions.
@@ -79,7 +79,7 @@ It’s designed like a mini-analytics report: **each chart is paired with interp
 ---
 
 ### 5) Top 10 Players by Sixes
-![Top 10 Players by Sixes](image/playerssix.png)
+![Top 10 Players by Sixes](images/playerssix.png)
 
 **Why sixes deserve their own analysis:**
 - Sixes are a proxy for **scoring acceleration** and “pressure shifting” ability.
@@ -94,7 +94,7 @@ It’s designed like a mini-analytics report: **each chart is paired with interp
 ---
 
 ### 6) Top 10 Players by Fours
-![Top 10 Players by Fours](image/playersfours.png)
+![Top 10 Players by Fours](images/playersfours.png)
 
 **What this reveals that sixes don’t:**
 - Fours are often associated with **shot placement, timing, and manipulating gaps**, not only brute force.
@@ -108,7 +108,7 @@ It’s designed like a mini-analytics report: **each chart is paired with interp
 ---
 
 ### 7) Top 10 Players by Total Runs
-![Top 10 Players by Total Runs](image/playerstotalruns.png)
+![Top 10 Players by Total Runs](images/playerstotalruns.png)
 
 **What total runs really measure:**
 - This is a “career dominance” indicator driven by:
@@ -123,7 +123,7 @@ It’s designed like a mini-analytics report: **each chart is paired with interp
 ---
 
 ### 8) Top 10 Venues by Total Runs
-![Top 10 Venues by Total Runs](image/venuetotalrun.png)
+![Top 10 Venues by Total Runs](images/venuetotalrun.png)
 
 **What’s happening here:**
 - High total runs at a venue can mean:
@@ -142,7 +142,7 @@ It’s designed like a mini-analytics report: **each chart is paired with interp
 ---
 
 ### 9) Top 10 Teams by Total Wickets
-![Top 10 Teams by Total Wickets](image/teamstotalwick.png)
+![Top 10 Teams by Total Wickets](images/teamstotalwick.png)
 
 **Why total wickets matters:**
 - Wickets correlate with control: teams that regularly take 10 wickets can dictate match tempo and reduce chase probability.
@@ -157,7 +157,7 @@ It’s designed like a mini-analytics report: **each chart is paired with interp
 ---
 
 ### 10) Top 10 Teams by Average Runs per Match
-![Top 10 Teams by Average Runs per Match](image/teamavgruns.png)
+![Top 10 Teams by Average Runs per Match](images/teamavgruns.png)
 
 **Why this is more revealing than total runs:**
 - Average runs per match is a **rate metric**—it normalises for how often a team played.
@@ -169,7 +169,7 @@ It’s designed like a mini-analytics report: **each chart is paired with interp
 ---
 
 ### 11) Top 10 Teams by Total Runs
-![Top 10 Teams by Total Runs](image/teamsruns.png)
+![Top 10 Teams by Total Runs](images/teamsruns.png)
 
 **What this tells you:**
 - This is a “history + volume + output” scoreboard.
@@ -186,7 +186,7 @@ It’s designed like a mini-analytics report: **each chart is paired with interp
 ---
 
 ### 12) Win Rate by Toss Decision (Bat vs Field)
-![Win Rate by Toss Decision](image/tossdec.png)
+![Win Rate by Toss Decision](images/tossdec.png)
 
 **Meaningful interpretation:**
 - In this dataset, **fielding first shows a higher win rate** than batting first (visually ~0.95 vs ~0.92).
@@ -201,7 +201,7 @@ It’s designed like a mini-analytics report: **each chart is paired with interp
 ---
 
 ### 13) Impact of Winning the Toss on Match Outcome
-![Impact of Toss on Match Outcome](image/tossimpact.png)
+![Impact of Toss on Match Outcome](images/tossimpact.png)
 
 **What the chart suggests:**
 - Even after winning the toss, the win/loss split remains substantial (in your output, losses appear higher—roughly ~59% loss vs ~41% win).
@@ -214,7 +214,7 @@ It’s designed like a mini-analytics report: **each chart is paired with interp
 ---
 
 ### 14) Distribution of Total Wickets per Match (Innings 1 vs Innings 2)
-![Distribution of Total Wickets per Match](image/disttotalwick.png)
+![Distribution of Total Wickets per Match](images/disttotalwick.png)
 
 **What this distribution can indicate:**
 - Innings 2 often reflects chase pressure—teams accelerate, increasing dismissal probability.
@@ -226,7 +226,7 @@ It’s designed like a mini-analytics report: **each chart is paired with interp
 ---
 
 ### 15) Distribution of Total Runs per Match (Innings 1 vs Innings 2)
-![Distribution of Total Runs per Match](image/totalrundist.png)
+![Distribution of Total Runs per Match](images/totalrundist.png)
 
 **What this shows beyond “two histograms”:**
 - Innings 1 can have a wider, higher distribution because teams bat without a fixed target and can maximise late overs.
